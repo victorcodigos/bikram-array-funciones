@@ -11,7 +11,7 @@ function suma(num1, num2) {
 
 /////////////////////////////////////////////////////////////////////////////
 
-function potenciacion(num1, num2) {
+function potenciacion(num1, num2) { 
     let resultado = 1;
 
     for (let i = 0; i < num2; i++) {
