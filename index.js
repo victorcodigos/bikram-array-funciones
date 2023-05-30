@@ -3,7 +3,7 @@ let arrayNumeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 let arrayNumerosPares = [0, 2, 4, 6, 8];
 let arrayBidimensional = [[0, 1, 2], ['a', 'b', 'c']];
 
-/////////////////////////////Funciones/////////////////////////////////////////////
+///////////////////////////////Funciones/////////////////////////////////////////////
 
 function suma(num1, num2) {
     return num1 + num2;
@@ -11,7 +11,7 @@ function suma(num1, num2) {
 
 /////////////////////////////////////////////////////////////////////////////
 
-function potenciacion(num1, num2) { 
+function potenciacion(num1, num2) {
     let resultado = 1;
 
     for (let i = 0; i < num2; i++) {
@@ -46,9 +46,9 @@ function esPrimo(num) {
     return true;
 }
 
+/////////////////////////////////////////////////////////////////////////////
 
-
-///////////////////////Arrays y funciones/////////////////////////////////////
+//-----------------Arrays y funciones----------------//
 
 function ordenarArray(lista) {
     return lista.sort(function (a, b) {
@@ -106,7 +106,7 @@ function eliminarDuplicados(lista) {
 
 /////////////////////////////////////////////////////////////////////////////
 
-//-------------------------Arrays----------------------------//
+////////////////////////////////////Arrays////////////////////////////////////
 
 let arrayNumerosNeg = [0, -1, -2, -3, -4, -5, -6, -7, -8, -9];
 
@@ -116,7 +116,7 @@ let loGuardoTodo = ["hola", "que", 23, 42.33, "tal"];
 
 let arrayDeArrays = [[756, 'nombre'], [225, 'apellido'], [298, 'direccion']];
 
-//-------------------------Funciones----------------------------//
+/////////////////////////////////////Funciones///////////////////////////////
 
 function multiplicacion(num1, num2) {
     return num1 * num2;
@@ -151,7 +151,7 @@ function multiplicacion(num1, num2) {
 /////////////////////////////////////////////////////////////////////////////
 
 
-//----------------------Arrays y Funciones---------------------//
+///////////////////////////Arrays y Funciones/////////////////////////////////
 
 function ordenarArray2(lista) {
     return lista.sort(function (a, b) {
